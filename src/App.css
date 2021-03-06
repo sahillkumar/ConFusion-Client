@@ -1,0 +1,72 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.footer {
+  background-color: #333;
+  color: floralwhite;
+  bottom: 0;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background: #333;
+  color: floralwhite;
+  border-radius: 0;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+.navbar-dark {
+  background: #000;
+}
+.nav-link {
+  margin: 5px 10px;
+}
+
+.page-enter {
+  opacity: 0.01;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 300ms linear;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.page-exit-active {
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 300ms linear;
+}
+
+.login:hover {
+  outline: white;
+}
+
+.card-title {
+  background-color: white;
+  color: #000;
+  padding: 15px;
+  width: 50%;
+  text-align: center;
+}
